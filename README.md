@@ -21,3 +21,4 @@ build app and serve app + assets
 npm run start
 ```
 open http://localhost:8811# another-threejs-webpack-setup
+# another-threejs-webpack-setup

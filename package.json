@@ -1,0 +1,23 @@
+{
+  "name": "another-threejs-webpack-setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "launch-http-server": "node http-server.js",
+    "launch-dev-server": "webpack-dev-server",
+    "build": "rm -rf dist/* && webpack --mode production",
+    "dev": "run-p launch-http-server launch-dev-server",
+    "start": "run-s build launch-http-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "html-webpack-plugin": "^3.2.0",
+    "three": "^0.100.0",
+    "webpack": "^4.28.3",
+    "webpack-cli": "^3.2.0",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
